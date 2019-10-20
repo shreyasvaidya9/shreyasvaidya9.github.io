@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+body {
+  font-family: "Roboto Mono", monospace;
+}
+body nav .navbar-brand {
+  text-transform: capitalize;
+}
+body .intro-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #fcea2b;
+}
+
+/*# sourceMappingURL=style.css.map */
