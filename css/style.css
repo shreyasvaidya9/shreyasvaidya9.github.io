@@ -52,15 +52,11 @@ body .intro-flex1 .container-fluid p {
   }
 }
 @media (max-width: 992px) {
-  body .intro-flex1 {
-    height: 100vh;
-  }
   body .intro-flex1 p {
     text-align: justify;
   }
 }
 body .intro-flex-2 {
-  height: 100vh;
   background-color: #fcea2b;
   display: flex;
   flex-direction: column;
@@ -83,6 +79,11 @@ body .intro-flex-2 h3 {
 }
 body .intro-flex-2 p span {
   font-weight: 900;
+}
+@media (min-width: 992px) {
+  body {
+    height: 100vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
