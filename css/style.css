@@ -52,6 +52,9 @@ body .intro-flex1 .container-fluid p {
   }
 }
 @media (max-width: 992px) {
+  body .intro-flex1 {
+    padding: 60px 0;
+  }
   body .intro-flex1 p {
     text-align: justify;
   }
@@ -81,8 +84,13 @@ body .intro-flex-2 p span {
   font-weight: 900;
 }
 @media (min-width: 992px) {
-  body {
+  body .intro-flex-2 {
     height: 100vh;
+  }
+}
+@media (max-width: 992px) {
+  body .intro-flex-2 {
+    padding: 60px 0;
   }
 }
 

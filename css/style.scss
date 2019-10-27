@@ -59,7 +59,7 @@ body{
     }
     @media(max-width: 992px)  {
         .intro-flex1{
-            // padding: 60px 0;
+            padding: 60px 0;
             // height: 100vh;
             p{
                 text-align: justify;
@@ -95,6 +95,13 @@ body{
         }
     }
     @media(min-width: 992px){
-        height: 100vh;
+        .intro-flex-2{
+            height: 100vh;
+        }
+    }
+    @media(max-width: 992px){
+        .intro-flex-2{
+            padding: 60px 0;
+        }
     }
 }
