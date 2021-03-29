@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'Playfair Display', serif;
+    background-image: linear-gradient(to right, #fdfcfb , #e2d1c3);
+    .activity{
+        background-color: #fff;
+        box-shadow: 0 1px 0 rgba(0,0,0,.15);
+        padding: 2%;
+        border-radius: 10px;
+        h5{
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+}
